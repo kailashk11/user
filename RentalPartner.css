@@ -1,0 +1,126 @@
+.desktop-acc{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.my-acc{
+  margin-left: 400px;
+  margin-right: 400px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+   box-shadow: 3px 3px 3px 3px #888888;
+}
+.heading{
+  font-size: 20px;
+}
+.home{
+  text-align: right;
+}
+
+
+.acc-info{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.edit{
+  text-align: right;
+}
+
+
+/* card */
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-top:  4rem;
+    margin-bottom: 2rem;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.card-col{
+    float: left;
+    width: 100%;
+    background-color: white
+}
+
+.card-inner{
+    display: block;
+    overflow: hidden;
+    color: black;
+    margin-bottom: 10px;
+   box-shadow: 3px 3px 3px 3px #888888;
+    height: 90px;
+}
+.card-inner i{
+    margin-left: 10px;
+}
+
+
+.card-inner p{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+
+
+}
+
+.card-inner a{
+    text-decoration: none;
+
+}
+
+.button{
+  margin-top: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: right;
+}
+
+.button-style{
+  background-color: #2ECAB6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+   box-shadow: 3px 3px 3px 3px #888888;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.mobile-acc{
+  margin-top: 50px;
+
+}
+
+hr{
+margin-left: 40px;
+margin-right: 40px;
+border-top: 1px solid #99b898;
+
+}
+
+@media  (max-width:1100px) {
+  .desktop-acc{
+    display: none;
+  }
+}
+
+
+@media  (min-width:1099px) {
+  .mobile-acc{
+    display: none;
+  }
+}
